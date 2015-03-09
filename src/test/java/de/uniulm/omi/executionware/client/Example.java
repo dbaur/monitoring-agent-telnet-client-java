@@ -26,6 +26,7 @@ public class Example {
                 Thread.sleep(100);
             }
 
+            Thread.sleep(5000);
         } catch (Exception exception) {
             LOGGER.error("Error while executing example.", exception);
         } finally {
